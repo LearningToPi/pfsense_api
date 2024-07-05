@@ -13,7 +13,7 @@ classifiers = [
 	"Topic :: System :: Networking :: Firewalls",
 	"Topic :: System :: Networking :: Monitoring",
 	"Topic :: System :: Monitoring"]
-dependencies = ["certifi==2023.11.17",
+dependencies = ["certifi==2024.7.4",
 				"charset-normalizer==3.3.2",
 				"exceptiongroup==1.2.0",
 				"idna==3.6",
