@@ -1,33 +1,33 @@
 [project]
 name = "pfsense_api"
-version = "0.1.0"
+version = "0.1.1"
 description = "Python API for monitoring PfSense firewalls."
 authors = [{name = "Thomas Dunteman", email= "git@learningtopi.com"}]
 keywords = ["queue", "thread", "async"]
 readme = "README.md"
 requires-python = ">=3.10"
+license = "MIT"
 classifiers = [
-	"License :: OSI Approved :: MIT License",
 	"Programming Language :: Python :: 3",
 	"Topic :: Software Development :: Libraries :: Python Modules",
 	"Topic :: System :: Networking :: Firewalls",
 	"Topic :: System :: Networking :: Monitoring",
 	"Topic :: System :: Monitoring"]
-dependencies = ["certifi==2023.11.17",
-				"charset-normalizer==3.3.2",
-				"exceptiongroup==1.2.0",
-				"idna==3.6",
-				"iniconfig==2.0.0",
-				"logging-handler==1.0.7",
-				"lxml==5.1.0",
-				"packaging==23.2",
-				"pluggy==1.3.0",
-				"pytest==7.4.4",
-				"requests==2.31.0",
-				"six==1.16.0",
-				"tomli==2.0.1",
-				"urllib3==2.1.0",
-				"validators==0.22.0"]
+dependencies = ["certifi>=2023.11.17",
+				"charset-normalizer>=3.3.2",
+				"exceptiongroup>=1.2.0",
+				"idna>=3.6",
+				"iniconfig>=2.0.0",
+				"logging-handler>=1.0.7",
+				"lxml>=5.1.0",
+				"packaging>=23.2",
+				"pluggy>=1.3.0",
+				"pytest>=7.4.4",
+				"requests>=2.31.0",
+				"six>=1.16.0",
+				"tomli>=2.0.1",
+				"urllib3>=2.1.0",
+				"validators>=0.22.0"]
 
 [project.urls]
 "bug tracker" = "https://github.com/LearningToPi/pfsense_api/issues"

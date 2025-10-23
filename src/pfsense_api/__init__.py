@@ -87,7 +87,7 @@ from .parser import ContentParserRegex, ContentParserJson, ContentParser, Conten
 # load the supported API's with parsers
 from .supported_api import SUPPORTED_READ_API
 
-VERSION = (0, 1, 0)
+VERSION = (0, 1, 1)
 
 TIMEOUT = 30
 RETRY = 3
