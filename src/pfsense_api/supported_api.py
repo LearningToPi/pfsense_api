@@ -114,7 +114,7 @@ SUPPORTED_READ_API =  {
         },
         'parser': ContentParserRegex(regex=r'(?P<net>default|[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}(/[0-9]*)?)\s+'
                                            r'(?P<gw>link#[0-9]*|[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3})\s+'
-                                           r'(?P<flags>[a-zA-Z]*)\s+'
+                                           r'(?P<flags>[a-zA-Z0-9]*)\s+'
                                            r'(?P<uses>[0-9]*)\s+'
                                            r'(?P<mtu>[0-9]*)\s+'
                                            r'(?P<interface>[a-zA-Z0-9_]*)\s*\n',
@@ -128,7 +128,7 @@ SUPPORTED_READ_API =  {
         },
         'parser': ContentParserRegex(regex=r'(?P<net>default|[0-9a-fA-F:]*(%[a-zA-Z0-9_]*)?(/[0-9]*)?)\s+'
                                            r'(?P<gw>link#[0-9]*|[0-9a-fA-F:]*(%[a-zA-Z0-9_]*)?)\s+'
-                                           r'(?P<flags>[a-zA-Z]*)\s+'
+                                           r'(?P<flags>[a-zA-Z0-9]*)\s+'
                                            r'(?P<uses>[0-9]*)\s+'
                                            r'(?P<mtu>[0-9]*)\s+'
                                            r'(?P<interface>[a-zA-Z0-9_]*)\s*\n',
